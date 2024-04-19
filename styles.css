@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    color: #5FCEEA;
+}
+#tartalom{
+    margin: 40px;
+    text-justify: auto;
+}
+#oszlop{
+    border-right: black solid 3px;
+}
