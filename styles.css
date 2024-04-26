@@ -13,3 +13,20 @@ a{
 nav{
    border-top: 2px solid black;
 }
+#oszlop2{
+    background-color: azure;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+#kepek{
+    width: 25%;
+    height: 25%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#doboz{
+    background-color: azure;
+    border-radius: 10px;
+    text-align: justify;
+}
