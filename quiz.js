@@ -45,47 +45,47 @@ const questions = [
     },
 
     {
-        question: "Which is the athe world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "Hány ember játszik egy battle royale játékmódba?",
+        optionA: "100 játékos",
+        optionB: "200 játékos",
+        optionC: "75 játékos",
+        optionD: "50 játékos",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the han Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Melyik nem egy játékmód?",
+        optionA: "Battle Royale",
+        optionB: "Creative",
+        optionC: "Story mód",
+        optionD: "Save The World",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is arld ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Mennyi shield-ig tudsz maximum felmenni mini shieldel?",
+        optionA: "50",
+        optionB: "60",
+        optionC: "25",
+        optionD: "100",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numa number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "Mikor jelent meg a játékban a battle royale játékmód?",
+        optionA: "2015",
+        optionB: "2016",
+        optionC: "2019",
+        optionD: "2017",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't aing by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: `"Melyik jármű volt a legelső a játéban?"`,
+        optionA: "Quad Crasher",
+        optionB: "Plane",
+        optionC: "Golf cart",
+        optionD: "The shopping trolley",
         correctOption: "optionD"
     }
 ]
