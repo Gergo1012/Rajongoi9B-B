@@ -74,17 +74,24 @@
         <h1>Lépjen kapcsolatba velünk</h1>
         <p>Kérdése van, visszajelzése van, vagy csak szeretne csevegni a Fortnite mindenről? Szeretnénk hallani felőled! Írjon nekünk üzenetet az alábbi űrlap segítségével, és a lehető leghamarabb felvesszük Önnel a kapcsolatot.</p>
         <p>Kapcsolatfelvételi űrlap:</p>
-        <p>Név:<br>
-          <input type="text" maxlength="25" name="nev" value="">
-        </p>
-        <p>Email cím:<br>
-          <input type="text" name="email" value="">
-        </p>
-        <p>Üzenet:<br>
-          <textarea name="megjegyzes" rows="5" cols="40">Az üzenet szövege</textarea>
-        </p>
-        <input type="submit" name="kuldes" value="Küldés">
-        <input type="reset" name="kuldes" value="Törlés">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" maxlength="30" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Név</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email cím</label>
+        </div>
+        <div class="form-floating" id="commentt">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Üzenet</label>
+        </div>
+        <div class="gomb">
+          <button class="btn btn-primary" type="submit">Küldés</button>
+        </div>
+        <div class="gomb">
+          <button class="btn btn-danger" type="reset">Törlés</button>
+        </div>
         <p>Alternatív megoldásként az alábbi elérhetőségeken is elérhet minket:
         E-mail: contact@fortnitewebsite.com
         Telefon: +1 (123) 456-7890

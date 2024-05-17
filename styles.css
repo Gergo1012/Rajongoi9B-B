@@ -33,3 +33,16 @@ nav{
 #nevek{
     text-align: center;
 }
+
+.form-floating{
+    width: 25%;
+}
+
+#commentt{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.gomb{
+    padding-bottom: 10px;
+}
